@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+html, body{ margin:0; padding:0; background:#ffffff; font-size: 13px;}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+input {
+	z-index: 0 !important;
+}
+
+select {
+	z-index: 0 !important;
+}
+
+.placeholder {
+	color: #aaa;
+}
+
+/* ini::head*/
+.stlBackImg{
+	-webkit-box-shadow: inset 2px -7px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 2px -7px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: inset 2px -7px 5px 0px rgba(0,0,0,0.3);
+    background: url(../images/bg-pattern-main.jpg);
+/*     background: radial-gradient(farthest-side circle at center center, rgba(3, 32, 53, 0.802) 0%, rgba(0, 0, 0, 0) 100%), url(../images/bg-pattern-main.jpg); */
+    min-width: 340px;
+}
+
+.attrh1{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.attrSess{
+	float: left;
+	position: relative;
+	height: 28px;
+	padding: 7px 15px;
+	width: 100%;
+}
+
+.stlSess{
+	text-align: right;
+	background: #031e2f url(../images/bg-pattern.png);
+}
+
+.stlLink1{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.stlLink1:hover{
+	color: #fdc82f;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.stlBrdOpc:hover{
+	color: #fdc82f !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+	cursor: pointer !important;
+}
+
+.attrImgNav1{
+	float: left;
+	position: relative;
+	width: 30%;
+	padding: 5px 15px 5px 15px;
+}
+
+.stlImgNav1{
+	text-align: center;
+}
+
+.attrImgNav2{
+	float: left;
+	position: relative;
+	width: 70%;
+}
+
+.stlImgNav2{
+	text-align: center;	
+}
+
+.attrWrpNav{
+	margin-top: 2%;
+}
+
+.stlSubsOpc{
+	color: #3c6d96;
+	font-size: 11px;
+}
+
+.attrSubsH1{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.stlSubsH1{
+	background: #031e2f url(../images/bg-pattern.png);
+}
+
+.attrSubsTxt1 {
+    padding-left: 30px;
+    margin-bottom: 2px !important;
+    margin-top: 2px;
+}
+
+/* end::head */
+
+/* ini::body */
+.wrapMainBody{
+	float: left;
+	position: relative;
+	width: 100%;
+/* 	height: 100%; */
+}
+
+	/* ini::sec::home */
+	.attrWrpIn{
+		float: left;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		margin-bottom: 80px;
+	}
+	
+	.attrInTtl1{
+		float: left;
+		position: relative;
+		height: 100%;
+		width: 60%;
+	}
+	
+	.attrInTtl2{
+		float: left;
+		position: relative;
+		height: 100%;
+		width: 40%;
+	}
+	
+	.attrTtl1-1{
+		height: 100%;
+		float: right;
+		position: relative;
+		margin: 6% 8% 0 0;
+	}
+	
+	.stlTxtTtl{
+		font-size: 35px;
+	}
+	
+	.attrWrpLog{
+/* 		width: 60%; */
+	    margin-top: 20%;
+	    margin-bottom: 15%;
+	    margin-right: 8%;
+	    padding: 15px;
+	    float: right;
+	    position: relative;
+	}
+	
+	.stlWrpLog{
+		background: #FFFFFF;
+		text-align: center;
+		border: 1px solid #797979;
+		border-radius: 8px
+	}
+	
+	.stlPwdUsr{
+		color: #a94442;
+	}
+	
+.btn-warning-map {
+    color: #022647;
+    background-color: #fdc82f;
+    border-color: #fdc116;
+}
+	/* end::sec::home */
+	
+	/* ini::sec::Welcome Message */
+	.stlMsgWel{
+	    margin: 8% 1% 10% 1%;
+	    float: left;
+	    position: relative;
+	    height: 77%;
+	    width: 98%;
+	}
+	/* end::sec::WelComeMessage */
+
+	/* ini::content opc1 */
+	.attrTabOpc1{
+/* 		width: 100%; */
+/* 		height: 100%; */
+	}
+	
+	.stlsTtlOpc1{
+		border: 2px solid #115EAC;
+	}
+	
+	.table, th, td{
+/* 		border: 1px solid #797979 !important; */
+		text-align: center;
+		padding: 5px 2px;
+	}
+	
+	.attrTabOpc1 tbody tr:nth-child(odd) td {
+		background-color: #c4e3f3;
+	}
+	
+	.backSelectAll{
+	    color: #8a6d3b !important;
+    	background-color: #fcf8e3 !important;
+    	background: #fcf8e3 !important;
+/* 		color: #fff !important; */
+/* 	    background-color: #337ab7 !important; */
+/* 	    background: #337ab7 !important; */
+	}
+	/* end::content opc1 */
+
+/* ini::content opc2 */
+.stlMainNav{
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+.stlHrBtn2{
+	border: 2px solid #c8c9cb;
+	margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.stlSubTtl{
+	color: #333333;
+}
+.stlCheckRad{
+	width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-color: #090909;
+}
+.stlSecHeadTab{
+/* 	background: #000000 !important; */
+	background: #031e2f url(../images/bg-pattern.png) !important;
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+}
+.stlCheckRadio{
+	width: 50%;
+	float: left;
+	position: relative;
+	margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.stlCheckRadioDtll{
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-right: 15px;
+}
+.stlsRowDtll{
+	background-color: #dff0d8 !important; 
+	text-align: right;
+	padding-right: 15px;
+}
+.colorAct{
+	color: #2b542c;
+}
+.colorDesact{
+	color: #c60c30;
+}
+/* end::content opc2 */
+	
+/* ini::content opc3 */
+.wrapAdmTick{
+	float: left;
+	height: 85%;
+	position: relative;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.areaSelects{
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 45%;
+}
+.areaSelectsImg{
+	float: left;
+	height: 100%;
+	position: relative;
+	padding-top:8%;
+	width: 10%;
+	text-align: center;
+}
+.areaImgAOR{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+/* 	padding-top: 40%; */
+}
+.navScroll{
+    max-height: 325px;
+    overflow-y: auto; 
+}
+.deepAdmTick{
+	background-color: #dddddd;
+}
+a.colorOver:hover{
+	background-color: #FBCF45 !important;
+}
+.areaBtnSav3{
+	float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+.btn-primary-map{
+	color: #fff;
+    background-color: #115EAC;
+    border-color: #115EAC;
+}
+.btn-primary-map:hover{
+    color: #022647;
+    background-color: #fdc82f;
+    border-color: #fdc116;
+}
+.colorOver{
+	padding: 6px 15px !important;
+}
+/* end::content opc3 */
+	
+/* end::body */
+
+/* ini::Foot */
+.attrMainFot{
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+    clear: both;
+}
+
+.attrFot{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.attrFotC1{
+	float: left;
+	position: relative;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.stlF1{
+	text-align: center;
+}
+
+.attrFotLine{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 30px;
+}
+
+.stlFotLine{
+	background: #031e2f url(../images/bg-pattern.png);
+}
+/*end::Foot*/
+
+/* ini::nav responsive*/
+.quitBorderNav{
+	border: 0px solid transparent !important;
+	border-color: #1D355B !important;
+	min-height: 0px !important;
+	margin-bottom: 10px !important;
+	background-color: transparent !important; 
+}
+
+.stlBrdOpc{
+/* 	border: 1px solid #e5e5e5; */
+	font-weight: bold;
+	color: #FFFFFF !important;
+}
+/* end::nav responsive*/
